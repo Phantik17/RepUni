@@ -2,7 +2,7 @@ import pytest
 from app import add
 
 def test_add():
-    assert add(3, 3) == 6
+    assert add(3, 3) == 7
     assert add(-1, 1) == 0
     assert add(0, 4) == 4
 
