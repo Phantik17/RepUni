@@ -38,4 +38,4 @@ jobs:
     
     - name: Test with unittest
       run: |
-        python -m unittest test_calculator.py -v
+        python -m unittest addfunction_test.py -v
